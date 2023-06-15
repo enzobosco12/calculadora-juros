@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Quicksand', sans-serif;
+}
+
+body {
+     background-image: url(../img/Black\ Cream\ Simple\ City\ Desktop\ Wallpaper.png);
+     background-attachment: scroll;
+     background-size: cover;
+     margin-top: 180px;
+   }
+   
+
+button:hover{color: white !important}
+
+.radius{border-radius: 8px !important}
+
+.center{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.centerColumn{
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.centerRow{
+     align-items: center;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: center;
+}
+
+.imgcalc{
+     display: flex;
+     align-items: center;
+}
+
+.menu,
+.menuButtons
+{
+     background-color: transparent !important;
+     backdrop-filter: blur(20px) !important;
+}
+
+.menuButtons button{min-width: 150px !important}
+
+#amountComp,
+#capitalComp,
+#simpleAmountResult, 
+#simpleCapitalResult, 
+#simpleRateResult,
+#simpleTimeResult,
+#timeComp,
+#currentValueDescComp,
+#comercialValue
+{
+     font-size: 2.5rem;
+}
+
+#simpleFeesTimeResult,
+#compFees,
+#rateComp,
+#descComp,
+#comercialDesc
+{
+     font-size: 2rem;
+}
+
+.simpleAmountModal, 
+.simpleCapitalModal, 
+.simpleRateModal,
+.simpleTimeModal,
+.compAmountModal,
+.compCapitalModal,
+.compRateModal,
+.compTimeModal,
+.menuButtonsComp
+{
+     animation: open 0.5s ease-in-out !important;
+     background-color: transparent !important;
+     backdrop-filter: blur(20px) !important;
+}
+
+a:hover{
+     color: rgb(65, 65, 192) !important;
+}
+
+.midias i{
+     cursor: pointer;
+     font-size: 1.25rem;
+}
+
+.rodape{
+     position: relative;
+     margin-bottom: 0;
+     margin-left: 0;
+     margin-right: 0;
+}
+
+.rodape i:hover{
+     transform: scale(1.2);
+     color: #f5f5f5 !important;
+}
+
+.rodape h6{font-size: 0.85rem !important}
+
